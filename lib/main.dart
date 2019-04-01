@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login_screens/misc/rating.dart';
+import 'package:flutter_login_screens/navigation/animated_slideshow.dart';
 
 void main() => runApp(new MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(),
+      home: new AnimatedSlideShow(),
       debugShowCheckedModeBanner: false,
     );
   }
